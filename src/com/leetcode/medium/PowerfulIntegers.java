@@ -15,6 +15,7 @@ public class PowerfulIntegers {
         for (int a = 0; Math.pow(x, a) < bound; a++) {
             for (int b = 0; Math.pow(x, a)  + Math.pow(y, b) <= bound; b++) {
                 double r =  Math.pow(x, a)  + Math.pow(y, b);
+                System.out.println(x+"^"+a+" + "+y+"^"+b+ " = "+r);
                 result.add((int) r);
                 if(y == 1) {
                     break;
@@ -28,6 +29,7 @@ public class PowerfulIntegers {
     }
 
     public static void main(String[] args) {
-        System.out.println(new PowerfulIntegers().powerfulIntegers(1, 1, 10));
+       // System.out.println(new PowerfulIntegers().powerfulIntegers(1, 1, 10));
+        System.out.println(new PowerfulIntegers().powerfulIntegers(3, 5, 15));
     }
 }
