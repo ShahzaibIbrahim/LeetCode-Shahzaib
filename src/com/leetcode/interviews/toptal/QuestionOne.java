@@ -1,4 +1,4 @@
-package com.leetcode.toptal;
+package com.leetcode.interviews.toptal;
 
 public class QuestionOne {
     public String solution(String message, int K) {

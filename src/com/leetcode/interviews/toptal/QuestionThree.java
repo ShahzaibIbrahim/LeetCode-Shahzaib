@@ -1,8 +1,6 @@
-package com.leetcode.toptal;
+package com.leetcode.interviews.toptal;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.stream.IntStream;
 
 public class QuestionThree {

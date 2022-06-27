@@ -1,4 +1,4 @@
-package com.leetcode.toptal;
+package com.leetcode.interviews.toptal;
 
 import java.util.*;
 
