@@ -11,7 +11,7 @@ public class NoOfCarries {
             int b = B % 10;
 
             int sum = a + b + carry;
-            System.out.println(a + "+" + b + "=" + sum);
+            System.out.println(a + "+" + b + "+" + carry +  "=" + sum);
 
             if(sum> 9) {
                 result++;
@@ -27,6 +27,6 @@ public class NoOfCarries {
     }
 
     public static void main(String[] args) {
-        System.out.println("Result= " + new NoOfCarries().countCarries(5255, 2795));
+        System.out.println("Result= " + new NoOfCarries().countCarries(1200055, 188899977));
     }
 }
